@@ -1,0 +1,52 @@
+# --- Direct Sales Growth OS .gitignore ---
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# OS cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# External skills staging (download here, review, then move to .claude/skills/)
+external-skills/_downloads/
+
+# Local secrets / credentials (never commit)
+.env
+*.env
+secrets.*
+*.key
+*.pem
+credentials.*
+
+# Large / raw media (keep the repo light; store assets externally)
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.wav
+*.aiff
+*.psd
+*.prproj
+*.zip
+assets/raw/
+content/exports/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Python tooling
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# Local publishing notes
+SAFETY_REPORT.md

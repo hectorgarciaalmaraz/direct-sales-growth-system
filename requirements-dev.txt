@@ -1,0 +1,2 @@
+# Only needed to run the test suite; the system itself uses the standard library.
+pytest==9.1.1
